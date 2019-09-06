@@ -27,6 +27,10 @@
     <link rel="stylesheet" type="text/css" href="index.css"/>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ityped.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
   </head>
 
   <body>
@@ -50,9 +54,9 @@
   <main class="et-main">
     <section class="navbar-slide" id="tab-about">
       <div class="container container-fluid" id="aboutMe">
-        <h1 class="text-center">About</h1>
+        <h1 class="text-center headline">About</h1>
         <hr width="0" />
-        <button class="collapsible"><b>Education</b></button>
+        <button class="collapsible tagline"><b>Education</b></button>
         <div class="content">
           <div class="row text-center justify-content-md-center">
             <div class="col col-md-12">
@@ -76,7 +80,7 @@
             </div>
           </div>
         </div>
-        <button class="collapsible"><b>Hobbies</b></button>
+        <button class="collapsible punchline"><b>Hobbies</b></button>
         <div class="content">
           <div class="row text-center justify-content-md-center">
             <div class="col col-md-12">
@@ -101,11 +105,11 @@
       </div>
     </section>
     <section class="navbar-slide" id="tab-work">
-      <h1>WorldCraft Logistics</h1>
+      <h1 class="headline">WorldCraft Logistics</h1>
       <hr width="0">
-      <h3>International Transportation and Logistics Consultation</h3>
+      <h3 class="tagline">International Transportation and Logistics Consultation</h3>
       <hr width="0">
-      <div class="text-center">
+      <div class="text-center punchline">
         <div class="svg-wrapper">
           <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
             <rect id="shape" height="40" width="150" />
@@ -118,9 +122,9 @@
     </section>
     <section class="navbar-slide" id="tab-projects">
       <div class="container container-fluid" id="projects">
-        <h1 class="text-center">My Projects</h1>
+        <h1 class="text-center headline">My Projects</h1>
         <hr width="0" />
-        <button class="collapsible"><b>Shopping List</b></button>
+        <button class="collapsible tagline"><b>Shopping List</b></button>
         <div class="content">
           <div class="row text-center justify-content-md-center">
             <div class="col col-md-10">
@@ -147,7 +151,7 @@
         </div>
         <!-- <button class="collapsible"><b>Ramen Blog</b></button>
         <div class="content"></div> -->
-        <button class="collapsible"><b>EZ Chef</b></button>
+        <button class="collapsible punchline"><b>EZ Chef</b></button>
         <div class="content">
           <div class="row text-center justify-content-md-center">
             <div class="col col-md-12">
@@ -203,6 +207,12 @@
       </div>
     </section>
   </main>
+
+  <script>
+    ScrollReveal().reveal('.headline');
+    ScrollReveal().reveal('.tagline', { delay: 300 });
+    ScrollReveal().reveal('.punchline', { delay: 600 });
+  </script>
 
   </body>
 </html>

@@ -95,4 +95,4 @@ $(function() {
 
 if ($('#mainPage').length) {
 	$('#navigationBar').hide();
-}
+};
