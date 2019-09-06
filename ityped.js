@@ -18,7 +18,7 @@
  */
 var setProps = function setProps(_ref) {
   var _ref$strings = _ref.strings,
-      strings = _ref$strings === undefined ? ['Hello','World!', 'Haha get it?','Sorry bad joke...', "I'm Hien!", 'Welcome'] : _ref$strings,
+      strings = _ref$strings === undefined ? ['Hello','World!', 'Haha get it?','Sorry bad joke...', 'Im Hien', 'Welcome'] : _ref$strings,
       _ref$typeSpeed = _ref.typeSpeed,
       typeSpeed = _ref$typeSpeed === undefined ? 100 : _ref$typeSpeed,
       _ref$backSpeed = _ref.backSpeed,
