@@ -18,7 +18,7 @@
  */
 var setProps = function setProps(_ref) {
   var _ref$strings = _ref.strings,
-      strings = _ref$strings === undefined ? ['Hello!','World!', 'Haha get it?'] : _ref$strings,
+      strings = _ref$strings === undefined ? ['Hello!','World!', 'Haha get it?','Sorry bad joke', 'Welcome'] : _ref$strings,
       _ref$typeSpeed = _ref.typeSpeed,
       typeSpeed = _ref$typeSpeed === undefined ? 100 : _ref$typeSpeed,
       _ref$backSpeed = _ref.backSpeed,
@@ -26,19 +26,19 @@ var setProps = function setProps(_ref) {
       _ref$backDelay = _ref.backDelay,
       backDelay = _ref$backDelay === undefined ? 500 : _ref$backDelay,
       _ref$startDelay = _ref.startDelay,
-      startDelay = _ref$startDelay === undefined ? 500 : _ref$startDelay,
+      startDelay = _ref$startDelay === undefined ? 1000 : _ref$startDelay,
       _ref$cursorChar = _ref.cursorChar,
-      cursorChar = _ref$cursorChar === undefined ? '|' : _ref$cursorChar,
+      cursorChar = _ref$cursorChar === undefined ? '' : _ref$cursorChar,
       _ref$placeholder = _ref.placeholder,
       placeholder = _ref$placeholder === undefined ? false : _ref$placeholder,
       _ref$showCursor = _ref.showCursor,
-      showCursor = _ref$showCursor === undefined ? true : _ref$showCursor,
+      showCursor = _ref$showCursor === undefined ? false : _ref$showCursor,
       _ref$disableBackTypin = _ref.disableBackTyping,
       disableBackTyping = _ref$disableBackTypin === undefined ? false : _ref$disableBackTypin,
       _ref$onFinished = _ref.onFinished,
       onFinished = _ref$onFinished === undefined ? function () {} : _ref$onFinished,
       _ref$loop = _ref.loop,
-      loop = _ref$loop === undefined ? true : _ref$loop;
+      loop = _ref$loop === undefined ? false : _ref$loop;
   return {
     strings: strings,
     typeSpeed: typeSpeed,
