@@ -182,3 +182,5 @@ a {
   stroke-dashoffset: 0;
   stroke: #66b1f1;
 }
+
+::-webkit-scrollbar {width: 0}
