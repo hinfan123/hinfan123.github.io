@@ -28,18 +28,18 @@ a:hover{
   outline: none;
   font-size: 20px;
   border-bottom: 1px solid #eee;
-  background: linear-gradient(to left,#eee 50%, #66b1f1 50%);
+  /* background: linear-gradient(to left,#eee 50%, #66b1f1 50%);
   background-size: 200% 100%;
-  background-position:right bottom;
+  background-position:right bottom; */
   margin-left:10px;
-  transition:all 2s ease;
+  transition:all 0.6s ease;
 }
 
 .active, .collapsible:hover {
   background-color: #66b1f1;
   color: white;
-  -webkit-transition: 1s;
-  background-position: left bottom;
+  -webkit-transition: 1s ease;
+  /* background-position: left bottom; */
 }
 
 .collapsible:after {
