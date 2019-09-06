@@ -152,7 +152,8 @@ a {
   display: inline-block;
   border-radius: 3px;
   margin-left: 5px;
-  margin-right: 5px
+  margin-right: 5px;
+  background: #66b1f1;
 }
 
 #shape {
@@ -170,7 +171,7 @@ a {
 }
 
 #text a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: 100;
   font-size: 1.1em;
@@ -180,5 +181,15 @@ a {
   stroke-dasharray: 50 0;
   stroke-width: 3px;
   stroke-dashoffset: 0;
-  stroke: #66b1f1;
+  stroke: black;
+}
+
+.svg-wrapper:hover {
+  background: #eee;
+  transition: 1s all ease;
+}
+
+#text a:hover{
+  color: black;
+  transition: 1s all ease;
 }
