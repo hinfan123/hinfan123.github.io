@@ -18,7 +18,7 @@
  */
 var setProps = function setProps(_ref) {
   var _ref$strings = _ref.strings,
-      strings = _ref$strings === undefined ? ['Hello','World!', 'Haha get it?','Sorry bad joke...', 'Welcome'] : _ref$strings,
+      strings = _ref$strings === undefined ? ['Hello','World!', 'Haha get it?','Sorry bad joke...', "I'm Hien!", 'Welcome'] : _ref$strings,
       _ref$typeSpeed = _ref.typeSpeed,
       typeSpeed = _ref$typeSpeed === undefined ? 100 : _ref$typeSpeed,
       _ref$backSpeed = _ref.backSpeed,
@@ -26,7 +26,7 @@ var setProps = function setProps(_ref) {
       _ref$backDelay = _ref.backDelay,
       backDelay = _ref$backDelay === undefined ? 500 : _ref$backDelay,
       _ref$startDelay = _ref.startDelay,
-      startDelay = _ref$startDelay === undefined ? 1250 : _ref$startDelay,
+      startDelay = _ref$startDelay === undefined ? 1000 : _ref$startDelay,
       _ref$cursorChar = _ref.cursorChar,
       cursorChar = _ref$cursorChar === undefined ? '' : _ref$cursorChar,
       _ref$placeholder = _ref.placeholder,
