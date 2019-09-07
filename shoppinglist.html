@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>shoppinglist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="shopping.css" type="text/css" rel="stylesheet" />
+  	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://kit.fontawesome.com/feb57f3367.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="shopping.js"></script>
+  </head>
+  <body class="grey lighten-4">
+
+    <div class="container text-center userTable" style="margin-top: 40px">
+  		<h2 class="center-align">Shopping List</h2>
+  		<hr width=0>
+  		<table class="table table-hover" id="myTable">
+  				<thead>
+  					<tr>
+  		        <th class="center-align" scope="col"><h5><b>Item</b></h5></th>
+  		        <th class="center-align" scope="col"><h5><b>Type</b></h5></th>
+  		      </tr>
+  				</thead>
+  				<tbody>
+  					<tr>
+  						<td scope="row">Steak</td>
+  						<td scope="row">Meat</td>
+  					</tr>
+  				</tbody>
+  		</table>
+  	</div>
+
+    <div class="fixed-action-btn logged-in">
+      <a class="btn-floating btn-large">
+        <i class="large material-icons black">mode_edit</i>
+      </a>
+      <ul>
+        <li>
+          <a class="btn-floating black modal-trigger" data-target="modal-addItem">
+            <i class="material-icons">add_circle</i>
+          </a>
+        </li>
+        <li>
+          <a class="btn-floating black">
+            <i class="material-icons">indeterminate_check_box</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ADD ITEM MODAL REG USER -->
+    <div id="modal-addItem" class="modal">
+      <div class="modal-content center-align">
+        <h4 class="center-align">Add New Item</h4><br />
+        <form id="add-form">
+          <div class="input-field">
+            <input type="text" id="item" required>
+            <label for="itemUser">Item</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="type" required>
+            <label for="typeUser">Type</label>
+          </div>
+          <button class="btn black z-depth-0 waves-effect waves-light add-row">Add</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
