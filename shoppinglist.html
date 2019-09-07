@@ -4,20 +4,30 @@
     <meta charset="utf-8">
     <title>shoppinglist</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <!--iconKit-->
+    <script src="https://kit.fontawesome.com/fc0974e693.js"></script>
+
     <link href="shopping.css" type="text/css" rel="stylesheet" />
-  	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-  	<script src="https://kit.fontawesome.com/feb57f3367.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="shopping.js"></script>
   </head>
   <body class="grey lighten-4">
 
-    <div class="container text-center userTable" style="margin-top: 40px">
-  		<h2 class="center-align">Shopping List</h2>
-  		<hr width=0>
+    <div class="container jumbotron-fluid text-center">
+      <div style="min-height:5vh"></div>
+      <h1 class="center-align">Shopping List</h1>
+  		<hr width="0">
+    </div>
+
+    <div class="container text-center">
   		<table class="table table-hover" id="myTable">
   				<thead>
   					<tr>
@@ -33,24 +43,6 @@
   				</tbody>
   		</table>
   	</div>
-
-    <div class="fixed-action-btn logged-in">
-      <a class="btn-floating btn-large">
-        <i class="large material-icons black">mode_edit</i>
-      </a>
-      <ul>
-        <li>
-          <a class="btn-floating black modal-trigger" data-target="modal-addItem">
-            <i class="material-icons">add_circle</i>
-          </a>
-        </li>
-        <li>
-          <a class="btn-floating black">
-            <i class="material-icons">indeterminate_check_box</i>
-          </a>
-        </li>
-      </ul>
-    </div>
 
     <!-- ADD ITEM MODAL REG USER -->
     <div id="modal-addItem" class="modal">
