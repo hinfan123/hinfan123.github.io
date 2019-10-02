@@ -151,14 +151,7 @@
             <div class="col-md-3"></div>
           </div>
           <hr width=0>
-          <div class="svg-wrapper">
-            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-              <rect id="shape" height="40" width="150" />
-              <div id="text">
-                <a id="submitButton"><span class="spot"></span><strong>Submit</strong></a>
-              </div>
-            </svg>
-          </div>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </section>
@@ -168,10 +161,6 @@
     ScrollReveal().reveal('.headline', {delay: 300});
     ScrollReveal().reveal('.tagline', { delay: 600 });
     ScrollReveal().reveal('.punchline', { delay: 900 });
-
-    document.getElementById("submitButton").onclick = function() {
-      document.getElementById("contactform").submit();
-    };
   </script>
 
   </body>
