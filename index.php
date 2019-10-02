@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <!--iconKit-->
     <script src="https://kit.fontawesome.com/fc0974e693.js"></script>
+    <!-- form validator -->
+    <script language="JavaScript" src="validation.js" type="text/javascript"></script>
     <!--Link CSS and JS files-->
     <link rel="stylesheet" type="text/css" href="index.css"/>
     <script type="text/javascript" src="index.js"></script>
@@ -37,8 +39,8 @@
     </script>
     <div class="navbar-tabs-container" id="navigationBar">
       <a class="navbar-tab" href="#tab-about">About</a>
-      <a class="navbar-tab" href="#tab-work">Work</a>
       <a class="navbar-tab" href="#tab-projects">Projects</a>
+      <a class="navbar-tab" href="#tab-contact">Contact</a>
       <span class="navbar-tab-slider"></span>
     </div>
   </section>
@@ -88,7 +90,7 @@
         </div>
       </div>
     </section>
-    <section class="navbar-slide" id="tab-work">
+    <section class="navbar-slide" id="tab-projects">
       <h1 class="headline">WorldCraft Logistics</h1>
       <hr width="0">
       <h3 class="tagline">International Transportation and Logistics Consultation</h3>
@@ -103,34 +105,61 @@
           </svg>
         </div>
       </div>
-    </section>
-    <section class="navbar-slide" id="tab-projects">
-      <div class="container container-fluid" id="projects">
-        <h1 class="text-center headline">My Projects</h1>
-        <hr width="0" />
-        <div class="row text-center justify-content-md-center">
-          <div class="col col-md-10">
-            <hr width=0>
-            <p class="tagline">
-              I wanted to make a web application that was simple and practical enough to where I would use it often. <br>
-              A shopping list app was my go to since I didn't want to keep writing things down on a sticky note because I would forget it.
-              I also didn't want to just write them on the notes app on my phone because my roommate wouldn't be able to update the list. <br>
-              I do use this app, so you are only able to view the items on my list.
-            </p>
-            <hr width=0>
-            <div class="text-center punchline">
-              <div class="svg-wrapper">
-                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                  <rect id="shape" height="40" width="150" />
-                  <div id="text">
-                    <a href="https://shopping-list-c15aa.firebaseapp.com/"><span class="spot"></span>View</a>
-                  </div>
-                </svg>
-              </div>
+      <hr width="0" />
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <hr width=0>
+          <p class="tagline">
+            I wanted to make a web application that was simple and practical enough to where I would use it often. <br>
+            A shopping list app was my go to since I didn't want to keep writing things down on a sticky note because I would forget it.
+            I also didn't want to just write them on the notes app on my phone because my roommate wouldn't be able to update the list. <br>
+            I do use this app, so you are only able to view the items on my list.
+          </p>
+          <hr width=0>
+          <div class="text-center punchline">
+            <div class="svg-wrapper">
+              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                  <a href="https://shopping-list-c15aa.firebaseapp.com/"><span class="spot"></span>View</a>
+                </div>
+              </svg>
             </div>
-            <hr width=0>
           </div>
+          <hr width=0>
         </div>
+      </div>
+    </section>
+    <section class="navbar-slide" id="tab-contact">
+      <div class="container container-fluid" id="contact">
+        <h1 class="text-center headline">Contact Me!</h1>
+        <hr width=0>
+        <form class="contact" action="contactform.php" method="post" id="contactform">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><input type="text" name="name" class="form-control" placeholder="Name"></div>
+            <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><input type="text" name="email" class="form-control" placeholder="Your Email"></div>
+            <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><textarea name="message" class="form-control" placeholder="Message"></textarea></div>
+            <div class="col-md-3"></div>
+          </div>
+          <hr width=0>
+          <div class="svg-wrapper">
+            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+              <rect id="shape" height="40" width="150" />
+              <div id="text">
+                <a id="submitButton"><span class="spot"></span><strong>Submit</strong></a>
+              </div>
+            </svg>
+          </div>
+        </form>
       </div>
     </section>
   </main>
@@ -139,6 +168,10 @@
     ScrollReveal().reveal('.headline', {delay: 300});
     ScrollReveal().reveal('.tagline', { delay: 600 });
     ScrollReveal().reveal('.punchline', { delay: 900 });
+
+    document.getElementById("submitButton").onclick = function() {
+      document.getElementById("contactform").submit();
+    };
   </script>
 
   </body>
