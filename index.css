@@ -29,6 +29,9 @@ button:hover{
   transition: 2s ease;
   color: black;
 }
+button:active{
+  border: none;
+}
 /* .collapsible {
   background-color: white;
   color: black;
