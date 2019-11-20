@@ -32,6 +32,9 @@ button:hover{
 button:active{
   border: none;
 }
+.jumbotron{
+  background-color: white;
+}
 /* .collapsible {
   background-color: white;
   color: black;
