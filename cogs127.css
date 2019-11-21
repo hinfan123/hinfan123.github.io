@@ -1,0 +1,24 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+    opacity: 1;
+    transition: 2s opacity;
+    font-family: 'Lato', sans-serif;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+p{
+  font-size: 18px;
+  text-align: center;
+}
+.jumbotron{
+  background-color: white;
+}
+h2{
+  background: -webkit-linear-gradient(#43FCC4, #00E2E0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

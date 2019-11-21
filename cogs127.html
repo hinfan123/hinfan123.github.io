@@ -12,20 +12,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <!--iconKit-->
     <script src="https://kit.fontawesome.com/fc0974e693.js"></script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <!-- form validator -->
     <script language="JavaScript" src="validation.js" type="text/javascript"></script>
     <!--Link CSS and JS files-->
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="cogs127.css"/>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ityped.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal({ reset: true });
-    </script>
   </head>
   <body>
     <script>document.body.className += ' fade-out';</script>
@@ -35,10 +32,378 @@
       <hr width=60%>
     </div>
 
-    <script>
-      ScrollReveal().reveal('.headline', {delay: 100});
-      ScrollReveal().reveal('.tagline', { delay: 200 });
-      ScrollReveal().reveal('.punchline', { delay: 300 });
-    </script>
+    <div class="container container-fluid text-center" id="intro">
+      <h2>Introduction</h2>
+      <hr width=0>
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <p>
+            hello
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <div class="container container-fluid" id="intro">
+      <h2 class="text-center">Background</h2>
+      <hr width=0>
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="text-center">Project Objectives</h3>
+          <hr width=60%>
+          <p>
+            We wanted to redesign a feature in an already existing banking application
+            to help users save for major upcoming high-cost purchases.
+          </p>
+          <p>
+            Our team hopes to provide a more time efficient and simple experience when saving money.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Target Users</h3>
+          <hr width=60%>
+          <p>
+            Our target users are <b>young adults</b> <br>
+            Here are our reasons why.
+          </p>
+          <p>
+            <b>Coming of age</b> <br>
+            Young adults are just now getting into the real world and have to start
+            saving for many different things (rent, car payments, loans). <br>
+          </p>
+          <p>
+            <b>Environment</b> <br>
+            People often hang around others of the same age, young adults spending
+            time together almost always results in spending money.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">User Goals</h3>
+          <hr width=60%>
+          <p>
+            Users (young adults) should be able to
+            <li>set goal amounts of how much they want to save up</li>
+            <li>strategize what things they should and shouldn't spend money on based on their current spending habits</li>
+            <li>have mentality that money set aside is not money lost</li>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- PROBLEM STATEMENT -->
+    <div class="container container-fluid text-center" id="intro">
+      <h2>Problem Statement</h2>
+      <hr width=0>
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <p>
+            Many young adults are not fully aware of their spending habits or
+            saving methods and are unable to save correctly when setting up emergency funds.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- PERSONAS -->
+    <div class="container container-fluid text-center" id="intro">
+      <h2>Personas</h2>
+      <hr width=0>
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="text-center">Craig</h3>
+          <hr width=60%>
+          <p>
+            <b>About: </b>Craig is a sports enthusiast and enjoys playing rugby
+            on his weekends. He knows its a dangerous sport and has had emergencies
+            before so he wants to be able to save up and not have to worry about
+            accidents that might occur.
+          </p>
+          <p>
+            <b>Paint Points: </b>Bills for accidents vary greatly from the cost
+            of treating a sprained ankle to the cost of treating broken limbs.
+            Craig is not very tech savvy and finds it difficult to constantly
+            input expenses into his phone and set up saving features on mobile apps.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Greg</h3>
+          <hr width=60%>
+          <p >
+            <b>About: </b>Greg has recently adopted a pet dog. He is pretty sure that he
+            can afford the costs of raising a pet, but wants to save up money for
+            an emergency fund to cover vetinarian bills in case his dog falls ill or has an accident.
+          </p>
+          <p>
+            <b>Paint Points: </b>Greg isn’t really sure how much money he needs
+            to set aside as an emergency fund.
+          </p>
+          <p>
+            He has had many unexpected purchases recently as a result of getting
+            a new pet, and finds it difficult to keep track of how much money he
+            has left at the end of the month to put towards his new savings.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Sarah</h3>
+          <hr width=60%>
+          <p >
+            <b>About: </b>Sarah is a recent college graduate with a new job.
+            She is unsure of how long she is going to need to repay her loans
+            and wants to save up money so that she will still be able to pay her
+            loans even in emergencies.
+          </p>
+          <p>
+            <b>Paint Points: </b>Student loans, when unpaid, can rack up interest.
+            It’s difficult to make time and account for all of her expenses between
+            work and getting used to adult life.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- UX FLOWS -->
+    <div class="container container-fluid text-center" id="intro">
+      <h2>UX Flows</h2>
+      <hr width=0>
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <p>
+            *UX Flow A* <br>
+            This user flow demonstrates one method of implementing microsavings
+            by rounding up on specific individual purchases. This gives the user
+            more control over which transactions to round or not. Users such as
+            Greg, who may not be able to contribute a set amount from month to month,
+            can then pick and choose which transactions to round up. Furthermore,
+            in order to streamline the process of rounding individual transactions,
+            there are simplified options and no confusing changing of settings.
+            The simple yes/no choices are easy to understand even for users such as
+            Craig who are not tech savvy and might have trouble accessing and changing
+            things in the settings menu
+          </p>
+          <p>
+            *UX Flow B* <br>
+            This user flow demonstrates a method by which Sarah can manage interest
+            from her loans more concretely. She begins by selecting the account which
+            contains the balance she wants to keep track of, bringing up a screen
+            showing her current balance along with what that balance will be at in
+            (some point in time; maybe a year? 3 years?) if she were to keep on
+            paying the minimum balance. Sarah decides that she wants to pay more
+            than the minimum, so she elects to change up the amount she is paying
+            per month. After seeing the change in how much she needs to pay over time,
+            Sarah is satisfied, and applies this change to her current budget.
+            By doing this, Sarah is able to more easily remain cognizant of the amount
+            that she has save up for in order to reduce debt, making it easier for her
+            to make larger purchases in the future.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- UI SKETCHES -->
+    <div class="container container-fluid text-center" id="intro">
+      <h2>UI Sketches</h2>
+      <hr width=0>
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <p>
+            *UI Sketches* <br>
+            Our team learned that making UI Sketches (paper prototyping) is very
+            tedious and long, but it allows us to connect our UX Flow sheets to our
+            sketches through the step by step process when using the application.
+            Paper prototyping also allows for making multiple iterations of layouts,
+            and oftentimes we would come up with new, better ideas while in the midst
+            of sketching our intital idea. We wanted to add the rounding setting so
+            that the application automatically rounded up when categorizing the transactions,
+            and our paper prototypes explored placing that feature directly into the
+            transactions screen as well as having it as a toggled setting.
+            Our sketches took from Acorn’s round up feature and altered it to save
+            the money rather than invest that money so the user can use it to fund
+            anything else they might need, as well as Digit’s savings account feature
+            for the interest payoff plans. We also borrowed inspiration from popular
+            apps such as Tinder that use a more intuitive left/right swiping motion
+            to access screens instead of having users have to go through multiple decision-making screens.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- PAPER PROTOTYPES -->
+    <div class="container container-fluid text-center" id="intro">
+      <h2>Paper Prototypes</h2>
+      <hr width=0>
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <p>
+            *paper prototype A here* <br>
+            Our design for our first prototype `is based off of the first UX flow,
+            which allows users to “save their digital change” by rounding up on
+            transactions and placing these small amounts of money into a savings account.
+            The idea behind it is that as the user spends money, they also simultaneously
+            have an easy method of saving. In A2 we also explored the idea of automatic savings,
+            but a) many banks already offer this and it would be redundant to replicate it on a
+            mobile app since it is a one time action as well as b) not all users have a fixed
+            monthly income and might want to save a variable amount each month.
+            Thus, in order to make saving as painless a process as possible when having to
+            enter savings manually, rounding up on individual purchases allows enough
+            flexibility in saving amounts while still being easily accessible.
+            Similarly, the swiping mechanism to round up transactions minimizes the
+            number of steps one needs to take.
+            Users need as little as two or at most three swipes/taps to immediately
+            put money into their savings.
+          </p>
+          <p>
+            *paper prototype b here* <br>
+            We designed our second prototype based off of our second UX flow to
+            allow users to edit how much they want to pay off their debt
+            (in this case, their credit card debt). We kept the idea of changing
+            the amount they want to pay off each month with the goal of paying off
+            their card in a certain amount of time. Instead of adding more buttons
+            to press when showing their budget over time, we used a modal to show
+            how long it would take to pay off their debt as they change their
+            monthly payment. This way, users get an idea of how much they need to
+            save so they can pay off their debt.
+            The differences in our prototypes was the type of interaction the user
+            had with the application. With Prototype A, the user was more focused
+            on saving money by rounding their spent money so that the app puts away
+            a certain amount every time they spend. With Prototype B, the user is
+            more focused on paying back spent money (debt) so that they are aware
+            of how much they need to pay and set a schedule for payments.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- USER TESTING -->
+    <div class="container container-fluid text-center" id="intro">
+      <h2>User Testing</h2>
+      <hr width=0>
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <p>
+            *user testing pictures here* <br>
+            We tested our prototypes on three UCSD students. For each of the three,
+            they began by being debriefed about the overall type of app we are using
+            and were then given a brief overview of the task they were supposed to
+            complete: for the microsavings prototype, they were instructed to choose
+            a purchase and round up three dollars on a purchase, and for the interest
+            payoff prototype, they were instructed to change the minimum payment on
+            their credit card. After running through both prototypes, each user was
+            asked what their biggest issue was and which prototype they preferred.
+            Each user managed to complete these tasks with little outside assistance
+            aside from one portion of the second prototype.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- HIGH FIDELITY PROTOTYPES v1 -->
+    <div class="container container-fluid text-center" id="intro">
+      <h2>High-Fidelity Prototypes V1</h2>
+      <hr width=0>
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <p>
+            *main prototype flow here* <br>
+            This is our original design that follows the paper prototype we created
+            that implemented one of our original UX flows. We decided to proceed with
+            this prototype over the other after conducting three interviews in which
+            users tested out two different UX flows, and all three users prefered the
+            experience of the prototype we implemented over the other one.
+            Here, we utilize arrows as signifiers to make the user swipe to the right,
+            opening up a new menu that would allow for them to round up a purchase.
+            We believe that by having the arrows pointing to the right, a user would
+            attempt to swipe to the right. After a purchase is rounded, we then remove
+            the arrow by that transaction, helping the user remember the transactions
+            they’ve rounded already
+          </p>
+          <p>
+            *alternative screens here* <br>
+            We decided to create another whole flow that will act as our alternate
+            screens because we felt that we should have a different action that
+            brings us to the desired event while still following the flow of our
+            paper prototype. Additionally, this design is more akin to the original
+            Mint app as the android version has a hold down function while the IOS
+            version does not. These screens are testing a different type of user
+            interaction to get to the rounding (holding down versus swiping). We
+            believe that holding down is another common action many mobile users
+            perform and is quite intuitive because the transaction component will
+            become highlighted onced the user touches that component.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- HIGH FIDEILTY PROTOTYPES V2 -->
+    <div class="container container-fluid text-center" id="intro">
+      <h2>High-Fidelity Prototypes V2</h2>
+      <hr width=0>
+      <div class="row text-center justify-content-md-center">
+        <div class="col col-md-10">
+          <p>*prototype flows and before-after images here*</p>
+          <p>
+            Based on user feedback from our friends and classmates, we decided to use the
+            tap-and-hold interaction over the swiping interaction to implement the
+            rounding up feature. This is mainly because with the tapping feature,
+            the transaction remains visible for more of the rounding process so
+            that the user remains well informed about which transaction they are
+            rounding on. With the swiping action, the transaction is hidden and
+            if a user wants to double check which transaction they are rounding
+            on they must cancel the entire process to view the transaction again.
+            Holding down on a touch target is also a more purposeful action that
+            prevents users from accidentally rounding transactions through careless
+            handling of their phone. Although swiping is the quicker and more intuitive
+            action, it also leaves more room for error and for users to accidentally
+            swipe on the wrong thing. Swiping works well for more low-stakes apps
+            such as Tinder, but with an app like Mint that deals with money, users
+            may prefer an interaction that is slower but more precise.
+          </p>
+          <p>
+            We also made a few logistical changes to the wording of the dialog on
+            the feature. Rather than having the text read “Round Up By”, we switched
+            it to “Round Up To”,  which saves the user from having to do mental math
+            to add together the transaction and the change. Instead, the user can
+            think of the total value that the transaction has been rounded to as the
+            new value of the transaction. In order to help the user see how much they
+            are saving on each rounding action and save them the trouble of calculating
+            it, we kept the ending notification dialog as “$___ has been added to your
+            savings account!” in order to inform the user on not only the total rounded
+            value but also the amount being saved.
+          </p>
+          <p>
+            Finally, we changed the numerical values of the rounding feature, based
+            on user feedback that rounding by multiples of change felt too small and
+            that they would like the option to save faster by rounding higher.
+            Thus, instead of rounding to the nearest dollar and having multiples of
+            that number, we chose to have options rounding to the nearest 50 cents,
+            the nearest dollar, and for larger transactions, to the nearest $10 or
+            even nearest $100. This allows the user to save in increments as small
+            or large as they want, and can also slightly tailor the app to users in
+            different financial situations. A user that often makes large purchases
+            that costs $50 or $100 will probably want to save larger amounts since
+            they have the means to spend larger amounts, while maybe a college student
+            that only makes purchases under $20 would like to save smaller amounts since
+            they do not have as much income to set aside into savings.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
