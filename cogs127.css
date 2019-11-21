@@ -12,7 +12,9 @@ body.fade-out {
 }
 p{
   font-size: 18px;
-  text-align: center;
+}
+li{
+  font-size: 18px;
 }
 .jumbotron{
   background-color: white;
@@ -21,4 +23,5 @@ h2{
   background: -webkit-linear-gradient(#43FCC4, #00E2E0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
