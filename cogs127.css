@@ -20,8 +20,11 @@ li{
   background-color: white;
 }
 h2{
-  background: -webkit-linear-gradient(#43FCC4, #00E2E0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+#Avatar{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
 }
