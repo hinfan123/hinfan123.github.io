@@ -28,14 +28,36 @@
     <script>document.body.className += ' fade-out';</script>
 
     <div class="jumbotron jumbotron-fluid text-center" id="title">
-      <h1>COGS 127: Mint App Redesign</h1>
-      <hr width="83%">
+      <div class="container container-fluid">
+        <h1>COGS 127: Mint App Redesign</h1>
+        <div class="row justify-content-md-center">
+          <div class="col-md-10">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="mintLogo">
+      <div class="row justify-content-md-center">
+        <div class="col-md-10 text-center">
+          <img src="pictures/mint.png" alt="mint-logo" width="635" height="205">
+          <hr width=0>
+          <hr width=0>
+          <hr width=0>
+          <hr width=0>
+          <hr width=0>
+          <hr width=0>
+        </div>
+      </div>
     </div>
 
     <div class="container container-fluid" id="intro">
-      <h2>Overview</h2>
-      <hr width=0>
       <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <h2><b>Overview</b></h2>
+          <hr>
+        </div>
         <div class="col-md-10">
           <p>
             I was a part of a team of three that researched and designed a new feature
@@ -60,9 +82,11 @@
 
     <!-- PROBLEM STATEMENT -->
     <div class="container container-fluid" id="problem">
-      <h2>Our Problem</h2>
-      <hr width=0>
       <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <h2><b>Our Problem</b></h2>
+          <hr>
+        </div>
         <div class="col-md-10">
           <p>
             Many young adults are finally entering the real world and with that comes
@@ -109,7 +133,15 @@
       <hr width=0>
       <div class="row justify-content-md-center">
         <div class="col-md-5">
-          <p class="text-center">Dat Nguyen *picture to be inserted*</p>
+          <p class="text-center"><b>Dat Nguyen</b></p>
+          <div class="container" id="picOfDat">
+            <div class="row justify-content-md-center">
+              <div class="col-md-10 text-center">
+                <img src="pictures/dat.png" alt="mint-logo">
+                <hr width=0>
+              </div>
+            </div>
+          </div>
           <p>Age: 22</p>
           <p>
             “I use Chase as my banking application, but I don’t really use it’s
@@ -122,7 +154,15 @@
           </p>
         </div>
         <div class="col-md-5">
-          <p class="text-center">Kat Thongnoppakun *picture to be inserted*</p>
+          <p class="text-center"><b>Kat Thongnoppakun</b></p>
+          <div class="container" id="picOfKat">
+            <div class="row justify-content-md-center">
+              <div class="col-md-10 text-center">
+                <img src="pictures/kat.png" alt="mint-logo">
+                <hr width=0>
+              </div>
+            </div>
+          </div>
           <p>Age: 23</p>
           <p>
             “I like Mint more than most other apps just because of the simple
@@ -157,12 +197,16 @@
 
     <!-- PERSONAS -->
     <div class="container container-fluid" id="personas">
-      <h2>Personas</h2>
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <h2><b>Personas</b></h2>
+          <hr>
+        </div>
+      </div>
       <hr width=0>
       <div class="row justify-content-md-center">
         <div class="col-md-5">
           <h4 class="text-center">Craig</h4>
-          <hr>
           <p>
             <b>About: </b>Craig is a sports enthusiast and enjoys playing rugby
             on his weekends. He knows its a dangerous sport and has had emergencies
@@ -175,19 +219,31 @@
             Craig is not very tech savvy and finds it difficult to constantly
             input expenses into his phone and set up saving features on mobile apps.
           </p>
-          <hr>
         </div>
         <div class="col-md-5" id="Avatar">
-          <p>*Persona Avatar here*</p>
+          <div class="container" id="picOfCraig">
+            <img src="pictures/craig.png" alt="mint-logo" width="357" height="378">
+            <hr width=0>
+          </div>
         </div>
       </div>
       <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <hr>
+        </div>
+      </div>
+      <hr width=0>
+      <div class="row justify-content-md-center">
         <div class="col-md-5" id="Avatar">
-          <p>*Persona Avatar here*</p>
+          <div class="container" id="picOfGreg">
+            <img src="pictures/greg.png" alt="mint-logo" width="357" height="378">
+            <hr width=0>
+          </div>
         </div>
         <div class="col-md-5">
+          <hr width=0>
+          <hr width=0>
           <h4 class="text-center">Greg</h4>
-          <hr>
           <p >
             <b>About: </b>Greg has recently adopted a pet dog. He is pretty sure that he
             can afford the costs of raising a pet, but wants to save up money for
@@ -197,13 +253,19 @@
             <b>Paint Points: </b>Greg isn’t really sure how much money he needs
             to set aside as an emergency fund.
           </p>
-          <hr>
         </div>
       </div>
       <div class="row justify-content-md-center">
-        <div class="col-md-5">
-          <h4 class="text-center">Sarah</h4>
+        <div class="col-md-10">
           <hr>
+        </div>
+      </div>
+      <hr width=0>
+      <div class="row justify-content-md-center">
+        <div class="col-md-5">
+          <hr width=0>
+          <hr width=0>
+          <h4 class="text-center">Sarah</h4>
           <p >
             <b>About: </b>Sarah is a recent college graduate with a new job.
             She is unsure of how long she is going to need to repay her loans
@@ -215,10 +277,12 @@
             It’s difficult to make time and account for all of her expenses between
             work and getting used to adult life.
           </p>
-          <hr>
         </div>
         <div class="col-md-5" id="Avatar">
-          <p>*Persona Avatar here*</p>
+          <div class="container" id="picOfSarah">
+            <img src="pictures/sarah.png" alt="mint-logo" width="357" height="378">
+            <hr width=0>
+          </div>
         </div>
       </div>
     </div>
@@ -227,17 +291,26 @@
 
     <!-- UX FLOWS -->
     <div class="container container-fluid" id="UX">
-      <h2>UX Flow</h2>
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <h2><b>UX Flow</b></h2>
+          <hr>
+        </div>
+      </div>
       <hr width=0>
       <div class="row justify-content-md-center">
         <div class="col-md-10">
-          <p class="text-center">*UX Flow Images*</p>
           <p>
             This user flow demonstrates one method of implementing microsavings
             by rounding up on specific individual purchases. Furthermore,
             in order to streamline the process of rounding individual transactions,
             there are simplified options and no confusing change of settings.
           </p>
+          <hr width=0>
+          <div class="container text-center" id="picOfUX">
+            <img src="pictures/uxflow.png" alt="mint-logo">
+            <hr width=0>
+          </div>
         </div>
       </div>
     </div>
@@ -246,11 +319,19 @@
 
     <!-- PAPER PROTOTYPES -->
     <div class="container container-fluid" id="paper">
-      <h2>Paper Prototypes</h2>
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <h2><b>Paper Prototypes</b></h2>
+          <hr>
+        </div>
+      </div>
+      <hr width=0>
       <hr width=0>
       <div class="row justify-content-md-center">
         <div class="col-md-10">
-          <p class="text-center">*Paper Prototype Images*</p>
+          <div class="container text-center" id="papers">
+            <img src="pictures/paperproto.png" alt="mint-logo">
+          </div>
           <p>
             Our design for our prototype allows users to “save their digital change” by rounding up on
             transactions and placing these small amounts of money into a savings account.
@@ -281,11 +362,19 @@
 
     <!-- USER TESTING -->
     <div class="container container-fluid" id="usertesting">
-      <h2>User Testing</h2>
-      <hr width=0>
       <div class="row justify-content-md-center">
         <div class="col-md-10">
-          <p class="text-center">*User Testing Images*</p>
+          <h2><b>User Testing</b></h2>
+          <hr>
+        </div>
+        <div class="col-md-10">
+          <div class="container text-center" id="usertest">
+            <hr width=0>
+            <img src="pictures/case1.png" alt="mint-logo">
+            <hr width=0>
+          </div>
+        </div>
+        <div class="col-md-10">
           <p>
             We tested our prototypes on three UCSD students. For each of the three,
             they began by being debriefed about the overall type of app we are using
@@ -305,11 +394,18 @@
 
     <!-- HIGH FIDELITY PROTOTYPES v1 -->
     <div class="container container-fluid" id="highv1">
-      <h2>High-Fidelity Prototypes</h2>
       <hr width=0>
       <div class="row justify-content-md-center">
         <div class="col-md-10">
-          <p class="text-center">*Main Prototype Flow Images*</p>
+          <h2><b>High-Fidelity Prototypes</b></h2>
+          <hr>
+        </div>
+        <div class="col-md-10">
+          <div class="container text-center" id="mainwire">
+            <hr width=0>
+            <img src="pictures/wire1.png" alt="mint-logo">
+            <hr width=0>
+          </div>
           <p>
             This is our original design that follows the paper prototype we created
             that implemented our original UX flow. Here, we utilize arrows as signifiers
@@ -320,7 +416,11 @@
             helping the user remember the transactions they’ve already rounded
           </p>
           <hr width=0>
-          <p class="text-center">*Alternative Screen Images*</p>
+          <div class="container text-center" id="altwire">
+            <hr width=0>
+            <img src="pictures/wire2.png" alt="mint-logo">
+            <hr width=0>
+          </div>
           <p>
             We decided to create a whole new flow that will act as our alternate
             screens because we felt that we should have a different action that
@@ -341,11 +441,18 @@
 
     <!-- FINAL DESIGN -->
     <div class="container container-fluid" id="highv2">
-      <h2>Final Design</h2>
-      <hr width=0>
       <div class="row justify-content-md-center">
         <div class="col-md-10">
-          <p class="text-center">*Prototype Flows and before-after Images*</p>
+          <h2><b>Final Design</b></h2>
+          <hr>
+        </div>
+        <div class="col-md-10">
+          <div class="container text-center" id="finalwire">
+            <hr width=0>
+            <img src="pictures/final.png" alt="mint-logo">
+            <hr width=0>
+            <hr width=0>
+          </div>
           <p>
             Based on user feedback from our friends and classmates, we decided to use the
             tap-and-hold interaction over the swiping interaction to implement the
@@ -379,9 +486,12 @@
     </div>
 
     <div class="container container-fluid" id="reflection">
-      <h2>Reflection</h2>
       <hr width=0>
       <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <h2><b>Relection</b></h2>
+          <hr>
+        </div>
         <div class="col-md-10">
           <p>
             This case study provided great insight on current applications in the market.
