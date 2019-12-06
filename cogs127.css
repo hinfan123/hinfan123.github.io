@@ -2,9 +2,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
-    opacity: 1;
-    transition: 2s opacity;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 body.fade-out {
     opacity: 0;
@@ -18,6 +16,9 @@ li{
 }
 .jumbotron{
   background-color: white;
+}
+h2 {
+  color: #00A6A5;
 }
 #Avatar{
   display:flex;
