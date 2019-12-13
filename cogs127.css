@@ -2,6 +2,8 @@ html{
   scroll-behavior: smooth;
 }
 body {
+    opacity: 1;
+    transition: 1s opacity;
     font-family: 'Nunito Sans', sans-serif;
 }
 body.fade-out {
