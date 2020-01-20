@@ -32,44 +32,6 @@ button:hover{
 button:active{
   border: none;
 }
-/* .collapsible {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  padding: 30px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.active, .collapsible:hover {
-  background-color: #66b1f1;
-  color: white;
-  -webkit-transition: 1s ease;
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: black;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.6s ease;
-  background-color: transparent;
-} */
 
 a {
   text-decoration: none;
@@ -145,60 +107,80 @@ a {
   }
 }
 
-.spot {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+.btn-primary {
+    color: #ffffff;
+    background-color: #66b1f1;
+    border-color: #66b1f1;
 }
 
-.svg-wrapper {
-  margin-top: 0;
-  position: relative;
-  width: 150px;
-  height: 40px;
-  display: inline-block;
-  border-radius: 3px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background: #66b1f1;
+.btn-primary:hover {
+    color: #66b1f1;
+    background-color: #ffffff;
+    border-color: #66b1f1;
+    transition: 1s all ease;
 }
 
-#shape {
-  stroke-width: 6px;
-  fill: transparent;
-  stroke: #66b1f1;
-  stroke-dasharray: 85 400;
-  stroke-dashoffset: -220;
-  transition: 1s all ease;
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
 }
 
-#text {
-  margin-top: -35px;
-  text-align: center;
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #66b1f1;
+    background-color: #66b1f1;
+    border-color: #66b1f1;
 }
 
-#text a {
-  color: white;
-  text-decoration: none;
-  font-weight: 100;
-  font-size: 1.1em;
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #66b1f1;
+    background-color: #66b1f1;
+    border-color: #66b1f1;
 }
 
-.svg-wrapper:hover #shape {
-  stroke-dasharray: 50 0;
-  stroke-width: 3px;
-  stroke-dashoffset: 0;
-  stroke: black;
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
 }
 
-.svg-wrapper:hover {
-  background: white;
-  transition: 1s all ease;
+.btn-outline-primary {
+    color: #66b1f1;
+    background-color: transparent;
+    background-image: none;
+    border-color: #66b1f1;
 }
 
-#text a:hover{
-  color: black;
-  transition: 1s all ease;
+.btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #66b1f1;
+    border-color: #66b1f1;
+    transition: 1s all ease;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: #66b1f1;
+    background-color: transparent
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #66b1f1;
+    background-color: #66b1f1;
+    border-color: #66b1f1;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
 }
