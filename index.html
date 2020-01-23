@@ -43,20 +43,31 @@
       <a class="navbar-tab" href="#tab-contact">Contact</a>
       <span class="navbar-tab-slider"></span>
     </div>
+
+    <div class="learn-more lastline text-center">
+      <div class="container container-fluid">
+        <a href="#tab-about">
+          <h5>About Me</h5>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+      </div>
+    </div>
   </section>
 
   <!-- Main -->
   <main class="et-main">
     <section class="navbar-slide" id="tab-about">
       <div class="container container-fluid" id="aboutMe">
-        <h2>A Little About Me</h2>
+        <h2 class="text-center">A Little About Me</h2>
         <hr width="0" />
-        <div class="row text-center justify-content-md-center">
-          <div class="col">
+        <div class="row justify-content-md-center">
+          <div class="col-md-8">
             <p class="tagline">
-              Hello, I am a new graduate from the University of California, San Diego. <br>
-              I have my Bachelors of Science in Cognitive Science - Human Computer Interaction <br>
-              My interests are UX Design, Front End Development, and Data Science.<br>
+              &emsp; I am a new graduate from the University of California, San Diego.
+              I have my Bachelors of Science in Cognitive Science - Human Computer Interaction.<br>
+            </p>
+            <p class="tagline">
+              &emsp; My interests are UX/UI Design, Front End Development, and Data Science.
               For more information, check out my resume / GitHub / LinkedIn.<br>
             </p>
             <hr width="0" />
@@ -122,7 +133,9 @@
             <div class="col-md-3"></div>
           </div>
           <hr width=0>
-          <button type="submit" class="btn btn-primary punchline">Submit</button>
+          <div class="container text-center">
+            <button type="submit" class="btn btn-primary punchline">Submit</button>
+          </div>
         </form>
       </div>
     </section>
@@ -132,6 +145,7 @@
     ScrollReveal().reveal('.headline', {delay: 100});
     ScrollReveal().reveal('.tagline', { delay: 200 });
     ScrollReveal().reveal('.punchline', { delay: 300 });
+    ScrollReveal().reveal('.lastline', {delay: 500});
   </script>
 
   </body>
