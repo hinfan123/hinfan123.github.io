@@ -1,152 +1,148 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <!-- Popper Js -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <!-- Bootstrap js -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
-    <!--iconKit-->
-    <script src="https://kit.fontawesome.com/fc0974e693.js"></script>
-    <!-- form validator -->
-    <script language="JavaScript" src="validation.js" type="text/javascript"></script>
-    <!--Link CSS and JS files-->
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-    <script type="text/javascript" src="index.js"></script>
-    <script type="text/javascript" src="ityped.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal({ reset: true });
-    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Hien Phan</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
   </head>
+<body>
 
-  <body>
-    <script>document.body.className += ' fade-out';</script>
+<!-- PRE LOADER -->
+<div class="preloader">
+  <div class="sk-spinner sk-spinner-wordpress">
+    <span class="sk-inner-circle"></span>
+  </div>
+</div>
 
-  <!-- Hero -->
-  <section class="navbar-tabs" id="mainPage">
-    <h1><span class="ityped"></span></h1>
-    <script type="text/javascript">
-      window.ityped.init(document.querySelector('.ityped'),{});
-    </script>
-    <div class="navbar-tabs-container" id="navigationBar">
-      <a class="navbar-tab" href="#tab-about">About</a>
-      <a class="navbar-tab" href="#tab-projects">Projects</a>
-      <a class="navbar-tab" href="#tab-contact">Contact</a>
-      <span class="navbar-tab-slider"></span>
+<!-- Navigation section  -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand"><strong>Hien Phan</strong></i></a>
     </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="afriend.html">Afriend</a></li>
+          <li><a href="mint.html">Mint</a></li>
+          <li><a href="onehits.html">One Hit Wonders</a></li>
+        </ul>
+      </li>
+        <li><a href="Resume.pdf">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-    <div class="learn-more lastline text-center">
-      <div class="container container-fluid">
-        <a href="#tab-about" class="hvr-icon-down">
-          <h5>About Me</h5>
-          <i class="fas fa-arrow-circle-down hvr-icon"></i>
+<!-- Home Section -->
+<section id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="section-title">
+          <h1>Hey there, I'm Hien</h1>
+        </div>
+        <p>I'm a UX Designer located in Southern California with experience in UI/UX, Front-End Development, and Data Science.<p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+  <div class="container">
+    <h5>My Work</h5>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="afriend.html">
+          <div class="portfolio-thumb">
+            <img src="pictures\afrienddesign.png" class="img-responsive" alt="Portfolio">
+            <div class="portfolio-overlay">
+              <div class="portfolio-item">
+                <h3>Make connections close to you.</h3>
+                <small>View Case Study</small>
+              </div>
+            </div>
+          </div>
         </a>
       </div>
     </div>
-  </section>
-
-  <!-- Main -->
-  <main class="et-main">
-    <section class="navbar-slide" id="tab-about">
-      <div class="container container-fluid" id="aboutMe">
-        <h2 class="text-center">A Little About Me</h2>
-        <hr width="0" />
-        <div class="row justify-content-md-center">
-          <div class="col-md-8">
-            <p class="tagline">
-              &emsp; I am a new graduate from the University of California, San Diego.
-              I have my Bachelors of Science in Cognitive Science - Human Computer Interaction.<br>
-            </p>
-            <p class="tagline">
-              &emsp; My interests are UX/UI Design, Front End Development, and Data Science.
-              For more information, check out my resume / GitHub / LinkedIn.<br>
-            </p>
-            <hr width="0" />
-            <div class="text-center punchline">
-              <a href="Resume.pdf" class="btn btn-primary">Resume</a>
-              <a href="https://github.com/hinfan123" class="btn btn-primary">GitHub</a>
-              <a href="https://www.linkedin.com/in/hien-phan-982a29172/" class="btn btn-primary">LinkedIn</a>
-              <hr width="0" />
+    <div class="row">
+      <div class="col-md-12">
+        <a href="mint.html">
+          <div class="portfolio-thumb">
+            <img src="pictures\Mint redesign.png" class="img-responsive" alt="Portfolio">
+            <div class="portfolio-overlay">
+              <div class="portfolio-item">
+                <h3>Keep track of your dough!</h3>
+                <small>View Case Study</small>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
-    </section>
-
-    <section class="navbar-slide" id="tab-projects">
-      <div class="container container-fluid">
-        <div class="row justify-content-md-center">
-          <div class="col-md-6 text-center">
-            <div class="container container-fluid" id="friendLogo">
-              <img src="pictures/mint.png" alt="mint-logo" width="100%" height="100%">
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="onehits.html">
+          <div class="portfolio-thumb">
+            <img src="pictures\onehits.png" class="img-responsive" alt="Portfolio">
+            <div class="portfolio-overlay">
+              <div class="portfolio-item">
+                <h3>Analysis of top songs to find out what they have in common.</h3>
+                <small>view case study</small>
+              </div>
             </div>
-            <hr width=0>
-            <div class="text-center punchline">
-              <a href="mint.html" class="btn btn-primary">View Case Study</a>
-            </div>
-            <hr width=0>
           </div>
-        </div>
-        <hr width=0>
-        <div class="row justify-content-md-center">
-          <div class="col-md-6 text-center">
-            <div class="container container-fluid" id="friendLogo">
-              <img src="pictures/afriend-logo.png" alt="logo" width="100%" height="100%">
-              <img class="shadow" src="pictures/logo.png" alt="logo" width="100%" height="100%">
-            </div>
-            <hr width=0>
-            <div class="text-center punchline">
-              <a href="https://hinfan123.github.io/cogs123/" class="btn btn-primary">View Case Study</a>
-            </div>
-            <hr width=0>
-          </div>
-        </div>
+        </a>
       </div>
-    </section>
-    <section class="navbar-slide" id="tab-contact">
-      <div class="container container-fluid" id="contact">
-        <h1 class="text-center headline">Contact Me!</h1>
-        <hr width=0>
-        <form action="https://formspree.io/hpn337@gmail.com" method="POST" />
-          <div class="row tagline">
-            <div class="col-md-3"></div>
-            <div class="col-md-6"><input type="text" name="name" class="form-control" placeholder="Name"></div>
-            <div class="col-md-3"></div>
-          </div>
-          <div class="row tagline">
-            <div class="col-md-3"></div>
-            <div class="col-md-6"><input type="text" name="email" class="form-control" placeholder="Your Email"></div>
-            <div class="col-md-3"></div>
-          </div>
-          <div class="row tagline">
-            <div class="col-md-3"></div>
-            <div class="col-md-6"><textarea name="message" class="form-control" placeholder="Message" rows="5"></textarea></div>
-            <div class="col-md-3"></div>
-          </div>
-          <hr width=0>
-          <div class="container text-center">
-            <button type="submit" class="btn btn-primary punchline">Submit</button>
-          </div>
-        </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Let's work together!</h3>
+        <ul class="social-icon">
+          <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=hpn337@gmail.com" class="fa fa-envelope"></a></li>
+          <li><a href="https://www.linkedin.com/in/hien-phan-982a29172/" class="fa fa-linkedin"></a></li>
+        </ul>
       </div>
-    </section>
-  </main>
+    </div>
+  </div>
+</footer>
 
-  <script>
-    ScrollReveal().reveal('.headline', {delay: 100});
-    ScrollReveal().reveal('.tagline', { delay: 200 });
-    ScrollReveal().reveal('.punchline', { delay: 300 });
-    ScrollReveal().reveal('.lastline', {delay: 500});
-  </script>
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 
-  </body>
+</body>
 </html>
