@@ -236,7 +236,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-toggle {
      border: none;
-     padding-top: 10px;
+     margin-top: 0;
   }
 
 .navbar-default .navbar-toggle .icon-bar {
